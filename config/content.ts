@@ -82,7 +82,20 @@ export const content = {
             description: "The global economy is teetering on the brink of a recession, with significant players like the United States, the Eurozone, and China facing economic headwinds. While the specter of...",
             image: "https://i.postimg.cc/QtzgxKjJ/Add-a-heading-1.png",
             link: "https://ppociitk.in/Navigating-economic-storm",
-          }
+          },
+          {
+            title: "Delhi Ordinance Bill",
+            description: "There shall be an Authority to be known as the National Capital Civil Service Authority to exercise the powers conferred on, and discharge the functions assigned to it under this Part ...",
+            image: "https://i.postimg.cc/Jh8TY7rK/Whats-App-Image-2023-08-10-at-10-05-01-PM.jpg",
+            link: "https://ppociitk.in/delhi_ordinance_bill",
+          },
+          {
+            title: "Sedition Law in India",
+            description: "Section 124A of Indian Penal code, 1860, British Crown Whoever, by words, either spoken or written, or by signs, or by visible representation, or otherwise, brings or attempts to bring into hatred contempt,...",
+            image: "https://i.postimg.cc/3RQSbH2m/1.png",
+            link: "https://ppociitk.in/sedition_law_in_india",
+          },
+          
           
         
       ],
