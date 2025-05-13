@@ -12,10 +12,10 @@ PPOC is a student-led initiative at **IIT Kanpur** that aims to promote awarenes
 
 ## 🔧 Tech Stack
 
-- **Framework**: [Next.js 14](https://nextjs.org/)
-- **Styling**: TailwindCSS + [HeroUI](https://heroui.dev/)
-- **Deployment**: Vercel (or any static host)
-- **Language**: TypeScript (optional) / JavaScript
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: TailwindCSS + [HeroUI](https://heroui.com/)
+- **Deployment**: Vercel
+- **Language**: TypeScript
 
 ---
 
