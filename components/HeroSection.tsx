@@ -17,7 +17,8 @@ export default function HeroSection() {
               Public Policy and Opinion Cell
             </div>
             <div className="text-xl italic mx-10 max-w-2xl font-bold">
-              "There's Tremendous Gap Between Public Opinion and Public Policy" - Noam Chomsky
+              {/* "There's Tremendous Gap Between Public Opinion and Public Policy" - Noam Chomsky */}
+              {"Research -> Analyse -> Criticize"}
             </div>
             {/* <Button>Read our Blog</Button> */}
             <div className="mt-5 items-left flex flex-row flex-initial max-w-[300px] gap-5 place-content-between justify-start ml-10">

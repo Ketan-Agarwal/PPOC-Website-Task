@@ -1,53 +1,51 @@
-# Next.js & HeroUI Template
+# PPOC IIT Kanpur – Homepage
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
+Welcome to the **Public Policy and Opinion Cell (PPOC)** website repository. This project serves as the homepage for the cell, designed to reflect its mission of public policy awareness, research, and student engagement.
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
+---
 
-## Technologies Used
+## 🧠 About PPOC
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [HeroUI v2](https://heroui.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+PPOC is a student-led initiative at **IIT Kanpur** that aims to promote awareness and discourse around public policy, governance, and civic issues. Through articles, events, and debates, PPOC connects students with the world of policy-making.
 
-## How to Use
+---
 
-### Use the template with create-next-app
+## 🔧 Tech Stack
 
-To create a new project based on this template using `create-next-app`, run the following command:
+- **Framework**: [Next.js 14](https://nextjs.org/)
+- **Styling**: TailwindCSS + [HeroUI](https://heroui.dev/)
+- **Deployment**: Vercel (or any static host)
+- **Language**: TypeScript (optional) / JavaScript
+
+---
+
+## 🖥️ Features
+
+- 🔷 Modern, clean homepage UI  
+- 🧭 Navbar with sections: Home, About Us, Events, Initiatives, Blog, Contact  
+- 📝 About the Cell with mission and vision  
+- 📚 Blog previews and featured pieces  
+- 🧑‍💼 Speaker cards and Initiative sections  
+- 📲 Social Media and contact links  
+- 💡 Responsive & mobile-friendly  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have:
+
+- Node.js ≥ 18.x
+- npm or yarn
+
+### Setup
 
 ```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
-```
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
+git clone https://github.com/Ketan-Agarwal/PPOC-Website-Task.git
+cd ppoc-homepage
 npm install
-```
-
-### Run the development server
-
-```bash
 npm run dev
 ```
 
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).

@@ -5,6 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function ContactUs() {
   const contactMethods = [
     {
+      title: "Follow Us on Instagram",
+      tool: "Instagram",
+      link: "https://www.instagram.com/ppoc_iitk/"
+    },
+    {
       title: "Email Us",
       description: "Reach out to us via email for any queries or collaborations.",
       tool: "Mail Us",
@@ -15,12 +20,12 @@ export default function ContactUs() {
       description: "Find us at the Public Policy and Opinion Cell, IIT Kanpur.",
       tool: "See on Maps",
       link: "https://maps.app.goo.gl/CuxqW5VG3itbNpvYA",
-    }
+    },
   ];
 
   return (
     <section className="w-full mt-10">
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         {contactMethods.map((method, index) => (
           <div key={index} className="mb-8 max-w-[600px] m-10">
             <h2 className="text-2xl font-bold text-left">{method.title}</h2>

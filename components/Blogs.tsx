@@ -8,15 +8,15 @@ import 'swiper/css/navigation'; // if you're using navigation
 import 'swiper/css/pagination'; // if using pagination
 import 'swiper/css/autoplay';
 import 'swiper/css/effect-cards';
+import BlogCard from "./BlogCard";
 import content from "@/config/content";
-export default function RecentActivities() {
-
+export default function Blogs() {
     return (
         <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="inline-block text-center justify-center w-full">
-            <h1 className="text-2xl lg:text-4xl font-bold underline pb-10">Recent Activities.</h1>
+            <h1 className="text-2xl lg:text-4xl font-bold underline pb-10">Recent Blogs.</h1>
             {/* <p className="text-lg">Stay updated with our latest activities.</p> */}
-            <div className="flex flex-wrap gap-4 justify-center">
+            <div className="flex flex-wrap gap-4 justify-center px-2">
             <Swiper
             className="ml-3 w-full justify-center gap-2"
         spaceBetween={3}
@@ -34,30 +34,29 @@ export default function RecentActivities() {
         breakpoints={{
           0: {
             slidesPerView: 1,
-            // spaceBetween: 10,
+            spaceBetween: 10,
           },
           640: {
             slidesPerView: 2,
-            // spaceBetween: 20,
+            spaceBetween: 20,
           },
           768: {
-            slidesPerView: 2,
-            // spaceBetween: 30,
+            slidesPerView: 3,
+            spaceBetween: 30,
           },
           1024: {
             slidesPerView: 4,
-            // spaceBetween: 40,
+            spaceBetween: 40,
           },
         }}
       >
-        {content.activities.map((activity, index) => (
-          <SwiperSlide key={index} className="px-10">
-            <ActivityCard
-              title={activity.title}
-              description={activity.description}
-              image={activity.image}
-              link={activity.link}
-              date={activity.date}
+        {content.blogs.map((blog, index) => (
+          <SwiperSlide key={index} className="">
+            <BlogCard
+              title={blog.title}
+              description={blog.description}
+              image={blog.image}
+              link={blog.link}
             />
           </SwiperSlide>
         ))}

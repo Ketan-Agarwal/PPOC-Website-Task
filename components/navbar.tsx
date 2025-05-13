@@ -76,7 +76,7 @@ export const Navbar = () => {
                 className={clsx(
                   linkStyles({ color: "foreground" }),
                   "data-[active=true]:text-primary data-[active=true]:font-medium",
-                  'hover:translate-y-[2.4px] transition-transform ease-in-out duration-200',
+                  'hover:-translate-y-[2.4px] transition-transform ease-in-out duration-200',
                 )}
                 color="foreground"
                 href={item.href}
