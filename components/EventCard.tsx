@@ -22,7 +22,7 @@ export default function EventCard({ title, date, description, image, link, tags 
       <div className=" 
   mt-4 flex justify-center ">
         {link && (
-          <a href={link} target="_blank" className="group text-blue-600 text-sm mt-3 inline-flex">
+          <a href={link} target="_blank" rel="noopener noreferrer" className="group text-blue-600 text-sm mt-3 inline-flex">
             
             <span className="opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:-translate-x-1 transition-all duration-200"> <FontAwesomeIcon icon={faArrowRight}/> </span> Full Recap
           </a>
